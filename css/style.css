@@ -8,7 +8,11 @@ html, body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  /* padding-bottom: 50px; */
+  padding-bottom: 50px; 
+}
+
+footer{
+    min-height: 100%;
 }
 
 /*nav bar background */
@@ -55,15 +59,17 @@ font-size: 14px;
 }
 
 .page-wrapper{
-  min-height: 100%;
-  margin-bottom: -50px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+min-height: 100%;
+  
 }
 
 .intro{
 position: absolute;
-width: 600px;
-height: 550px;
-left: 600px;
+width: 550px;
+left: 640px;
 top: 150px;
 font-family: Montserrat;
 font-style: normal;
@@ -83,28 +89,27 @@ padding: 20px;
 .image{
 position: absolute;
 padding:50px;
-top: 150px;
-left: 100px;
-
+top: 190px;
+left: 50px;
 }
 
 /* FOOTER */
 .footer{
   background: #F98267;
-  position: absolute;
-  height: auto;
+  position: sticky;
+  top: 100%;
   width: 100%;
   padding-top: 15px;
   margin-top: auto;
 }
 
 .footer .footer-bottom{
- color: #FFFFFF;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
 
 }
 
@@ -114,6 +119,7 @@ left: 100px;
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  padding-top: 20px;
   
 }
 
